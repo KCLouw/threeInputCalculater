@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Calculator</title>
+    <script src="/scripts/ifCalculator.js"></script>
+</head>
+<body>
+    <h1>Welcome to the If Calculator</h1>
+    <h2>Please enter a number into the below fields and choose a operator</h2>
+    <input type="number" id="inputOne">
+    <input type="number" id="inputTwo">
+    <select name="operand" id="operand">
+        <option value="blank"></option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">x</option>
+        <option value="/">÷</option>
+    </select>
+    <button id="calculate" onclick="calCul()">Calculate</button>
+    <p id="answer"></p>
+</body>
+</html>
